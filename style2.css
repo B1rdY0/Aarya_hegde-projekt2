@@ -35,7 +35,7 @@ body {
 
     }
 
-    .box2
+    .Box2
     {
         display: flex;
         background-color: black;
@@ -44,7 +44,7 @@ body {
         border-radius: 10px;
     }
 
-    .box3
+    .Box3
     {
         display: flex;
         background-color: black;
