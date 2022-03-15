@@ -21,9 +21,18 @@ body {
         background-color: black;
         grid-column: 2/ 6;
         grid-row: 1 / 2;
-
+        flex-direction: column;
+        text-align: center;
     }
 
+
+    .BoostBox h1
+    {
+        display: inline-block;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+    }
 
     .Box1
     {
