@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,38 @@
     <link rel="stylesheet" href="GameStyle.css">
     <script defer src="Game.js"></script>
 </head>
+
 <body>
     <div class="White">
-        <img src="WhiteDot1.jpeg" alt="" class="image">
+        <!-- <img src="WhiteDot1.jpeg" alt="" class="image"> -->
+        <header>
+            <div class="ClickBox">
+                <label type="label " class="aim-text">
+                    clicks: 0 | Time Left:
+                </label>
+                <label type="labal2" class="time-left">
+                    <p id="time"></p>
+                </label>
+            </div>
+
+            <div class="Restart">
+                <label type="label4" class=" restartGame">
+                    <p id="retry">
+                    </p>
+                </label>
+            </div>
+        </header>
+
+        <div class="container" id="Btn">
+            <div class="item">
+                <div class="ButtonMenu">
+                    <label type="label3" class="point-btn">
+                        <img src="WhiteDot1.jpeg" alt="">
+                    </label>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
